@@ -34,14 +34,6 @@ const App = () => {
     getData();
   }, [search]);
 
-  // const timer = setTimeout(() => {
-  //   autoComplete();
-  // });
-  // return () => {
-  //   clearTimeout(timer);
-  // };
-  // useDebounce(autoComplete, 800);
-
   return (
     <div>
       <input type="text" value={search} onChange={handleSearch} autocomplete />
